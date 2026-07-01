@@ -1,0 +1,52 @@
+{
+  "id": "dnd5e-dados-masmorrasedragoes",
+  "title": "D&D 5.5e - Dados Progressivos (Masmorras & Dragões)",
+  "description": "Substitui o modificador de atributo e o bônus de proficiência por dados em progressão em TODOS os testes de D20 (mantendo o melhor resultado entre os dois, quando há proficiência), converte o dano de atributo em dado pela mesma lógica, e adiciona a regra opcional 'Inspiração Adiante': quando dois dados de um teste saem iguais, a próxima rolagem de d20 recebe vantagem automática. Projetado para rodar junto com o sistema dnd5e e com módulos de tradução como o 'Livro do Jogador' (dnd-livro-jogador), sem alterar nenhum arquivo deles.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "GunHazard"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.0.0",
+          "verified": "6.0.0"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "dnd-livro-jogador",
+        "type": "module",
+        "reason": "Tradução PT-BR do sistema dnd5e. Este módulo não depende dela, mas foi pensado para rodar junto."
+      }
+    ]
+  },
+  "url": "",
+  "manifest": "",
+  "download": ""
+}

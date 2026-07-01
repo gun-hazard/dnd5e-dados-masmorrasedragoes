@@ -1,0 +1,21 @@
+{
+  "DND5EDM": {
+    "Settings": {
+      "EnableD20Variant": {
+        "Name": "Enable dice on d20 tests (ability + proficiency)",
+        "Hint": "When enabled, every d20 test (ability check, saving throw, skill, tool, attack) rolls an ability die and a proficiency die (when proficient) instead of flat bonuses, keeping the better of the two results."
+      },
+      "EnableDamageVariant": {
+        "Name": "Enable dice on damage rolls",
+        "Hint": "When enabled, the ability modifier added to damage becomes a die instead of a flat bonus, following the same table used for d20 tests."
+      },
+      "EnableForwardInspiration": {
+        "Name": "Enable Forward Inspiration",
+        "Hint": "When enabled, whenever two of the dice rolled in a d20 test show the same value (including both d20s on advantage/disadvantage), the character gains Forward Inspiration: their next d20 roll automatically gets advantage."
+      }
+    },
+    "Notifications": {
+      "ProficiencyDisplayAligned": "The dnd5e system's 'Proficiency Modifier' setting was switched to 'Dice' purely so character sheets display the proficiency bonus as a die (cosmetic only; the actual roll formula is computed by this module)."
+    }
+  }
+}

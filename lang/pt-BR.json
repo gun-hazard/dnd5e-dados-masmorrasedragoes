@@ -1,0 +1,21 @@
+{
+  "DND5EDM": {
+    "Settings": {
+      "EnableD20Variant": {
+        "Name": "Ativar dados em testes de D20 (atributo + proficiência)",
+        "Hint": "Quando ativo, todo teste de D20 (atributo, resistência, perícia, ferramenta e ataque) rola o dado de atributo e o dado de proficiência (quando há) em vez dos bônus fixos, ficando com o melhor resultado entre os dois."
+      },
+      "EnableDamageVariant": {
+        "Name": "Ativar dados em rolagens de dano",
+        "Hint": "Quando ativo, o modificador de atributo somado ao dano vira um dado em vez de um bônus fixo, seguindo a mesma tabela usada nos testes de D20."
+      },
+      "EnableForwardInspiration": {
+        "Name": "Ativar Inspiração Adiante",
+        "Hint": "Quando ativo, sempre que dois dos dados de um teste de D20 saírem com o mesmo valor (incluindo as duas rolagens de vantagem/desvantagem), o personagem ganha Inspiração Adiante: a próxima rolagem de d20 recebe vantagem automaticamente."
+      }
+    },
+    "Notifications": {
+      "ProficiencyDisplayAligned": "A configuração 'Modificador de Proficiência' do sistema dnd5e foi ajustada para 'Dado', só para a ficha exibir o bônus de proficiência como dado (puramente visual; a fórmula real da rolagem é calculada por este módulo)."
+    }
+  }
+}

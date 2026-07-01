@@ -1,5 +1,16 @@
 # D&D 5.5e - Sem Bônus apenas Dados Progressivos (Masmorras & Dragões)
 
+Quer uma experiencia mais Caótica, alguns diriam Selvagem? 
+
+Troque os valores Fixos dos Bônus por Dados. Existe essa regra variante aplicada 
+para os bônus de proficiência, mas porque parar por aí? Aplique-a também nos
+valores de atributos. Troque os bônus fixos também por dados e tenha uma experiência
+de jogo mais explosiva e dinâmica.
+
+---
+
+## O que o módulo faz
+
 Módulo para Foundry VTT (sistema `dnd5e`, testado contra a branch `6.0.x` /
 versão `6.0.0`) que substitui bônus fixos por dados em progressão, mantendo
 a curva de dificuldade dos testes de D&D praticamente igual.
@@ -8,9 +19,6 @@ a curva de dificuldade dos testes de D&D praticamente igual.
 lado do `dnd-livro-jogador` (tradução PT-BR), mas não depende dele — funciona
 com o sistema `dnd5e` em qualquer idioma.
 
----
-
-## O que o módulo faz
 
 ### 1) Testes de D20 (TODOS: atributo, resistência, perícia, ferramenta, ataque)
 
@@ -38,11 +46,27 @@ entre dois dados de tamanhos diferentes via sintaxe de "pool" do Foundry:
 - **Vantagem/Desvantagem continuam funcionando normalmente** — são
   aplicadas no dado de D20 em si (2d20kh1/kl1), independente desse cálculo.
 
+METAJOGO: 
+1. Mantém a curva de testes quase inalterada, talvez com leve "nerfada" 
+em níveis altos. Uma vez que um o valor máximo alcançado nos testes será 32 
+(20 no D20 e 12 no D12).
+
 ### 2) Dano
 
 O modificador de atributo somado ao dano também vira dado, pela mesma
 tabela. Proficiência nunca entra no dano (como no D&D normal), então aqui
 não há "melhor dos dois" — é só troca direta de bônus fixo por dado.
+
+METAJOGO: 
+1. Aqui o negócio pode errar a mão um pouco, do mesmo jeito que os 
+dados podem cair valores muito baixos também podem cair muito altos.
+Se perceber que os combates estão acabando muito rápido considere utilizar os 
+dados de Pontos de Vida CHEIOS em vez de "metade +1" incluindo monstros
+2. Outra consideração é o Crítico não deixe dobrar os dados do Atributo no dano,
+apenas o da arma. Uma sugestão bacana é considerar o dado Máximo da arma uma vez e
+jogar apenas o segundo dado (Já tem regra variante para isso no Foundry, por
+exemplo um Guerreiro com Força 17 (1d6) usando uma espada longa (1d8), tira um
+acerto crítico ele rola 1d8+1d6+8 em vez de 2d8+1d6.
 
 ### 3) Inspiração Adiante
 
@@ -54,6 +78,16 @@ desse personagem (e some depois de usada).
 
 Por enquanto isso é só uma flag no ator + mensagens no chat (concessão e
 consumo). Não tem indicador visual na ficha/token ainda — ver Roadmap.
+
+METAJOGO: 
+1. O Inspiração Adiante serve para "equilibrar" as marés de azar. Como
+existe a possibilidade de sempre cairem dados baixos em TODOS os testes
+não existindo uma margem segura dos bônus fixos para garantir sempre um
+resultado próximo de 10 como acontecia. A possibilidade de rolar outra
+alternativa com vantagem, sempre que valores iguais (que sempre serão
+abaixo de 12) cairem garante um fio de esperança mediante um resultado
+baixo.
+"Errei esta tentativa, mas a próxima será implacável"
 
 ### Bônus: ficha exibe proficiência como dado
 

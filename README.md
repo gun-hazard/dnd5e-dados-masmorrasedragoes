@@ -1,4 +1,4 @@
-# D&D 5.5e - Dados Progressivos (Masmorras & Dragões)
+# D&D 5.5e - Sem Bônus apenas Dados Progressivos (Masmorras & Dragões)
 
 Módulo para Foundry VTT (sistema `dnd5e`, testado contra a branch `6.0.x` /
 versão `6.0.0`) que substitui bônus fixos por dados em progressão, mantendo

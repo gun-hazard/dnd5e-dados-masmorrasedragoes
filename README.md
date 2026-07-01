@@ -64,7 +64,7 @@ Se perceber que os combates estão acabando muito rápido considere utilizar os
 dados de Pontos de Vida CHEIOS em vez de "metade +1" incluindo monstros
 2. Outra consideração é o Crítico não deixe dobrar os dados do Atributo no dano,
 apenas o da arma. Uma sugestão bacana é considerar o dado Máximo da arma uma vez e
-jogar apenas o segundo dado (Já tem regra variante para isso no Foundry, por
+jogar apenas o segundo dado (Já tem regra variante para isso no Foundry), por
 exemplo um Guerreiro com Força 17 (1d6) usando uma espada longa (1d8), tira um
 acerto crítico ele rola 1d8+1d6+8 em vez de 2d8+1d6.
 
